@@ -97,7 +97,7 @@ describe('test the recipes API', () => {
         expect(res.body).toEqual(
           expect.objectContaining({
             success: false,
-            message: 'Incorrect username',
+            message: 'Incorrect username or password',
           }),
         );
       });
@@ -115,7 +115,7 @@ describe('test the recipes API', () => {
         expect(res.body).toEqual(
           expect.objectContaining({
             success: false,
-            message: 'Incorrect password',
+            message: 'Incorrect username or password',
           }),
         );
       });
@@ -139,7 +139,7 @@ describe('test the recipes API', () => {
       );
     });
   });
-  // Test create recipes..
+  // Test create recipes.
   describe('POST/recipes', () => {
     it('it should save new recipe to db', async () => {
       // DATA YOU WANT TO SEND TO DB.
