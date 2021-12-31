@@ -139,7 +139,7 @@ describe('test the recipes API', () => {
       );
     });
   });
-  // Test create recipes.
+  // Test create recipes..
   describe('POST/recipes', () => {
     it('it should save new recipe to db', async () => {
       // DATA YOU WANT TO SEND TO DB.
