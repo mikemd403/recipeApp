@@ -1,6 +1,5 @@
 /* eslint-disable linebreak-style */
 const express = require('express');
-const bodyParser = require('body-parser');
 const cors = require('cors');
 const morgan = require('morgan');
 const routes = require('./routes/index.js');
