@@ -20,7 +20,7 @@ const RecipesController = {
 
   // Create and Save a new Recipes
   create: async (req, res) => {
-    console.log('create')
+    console.log('create');
     try {
       // define variables
       const {
